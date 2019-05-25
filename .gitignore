@@ -1,2 +1,10 @@
+# Data Files
 *.csv
 *.xlsx
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
