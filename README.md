@@ -9,3 +9,5 @@ Hybrid_System
 |-Data
 |-src
 ```
+
+*Next step is to read the data files for both AHUs(or just 1) and setpoints from zones*
