@@ -4,6 +4,7 @@
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.idea
 
 # IPython
 profile_default/
