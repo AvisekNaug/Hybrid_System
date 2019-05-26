@@ -13,3 +13,8 @@ not governing what is happening to the cooling and heating process it seems. Hav
 
 The cooling output is suddenly zero, when the outside temperature in the 80s and the humidity is in the 70s while the 
 cct is in the 70s
+
+### Possible alternative steps
+* download the data upto april for room temp set points, energy data both heating and cooling, temp for the cct and dat as rest are useless, environmental data
+* model the energy using these variables- use random shuffle to model the data vs contiguous shuffle
+* make sure to model two different regimes
