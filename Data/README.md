@@ -18,3 +18,11 @@ cct is in the 70s
 * download the data upto april for room temp set points, energy data both heating and cooling, temp for the cct and dat as rest are useless, environmental data
 * model the energy using these variables- use random shuffle to model the data vs contiguous shuffle
 * make sure to model two different regimes
+* Also see the variation in histogram variation in the weather data, sensor reading of temperatures, etc
+* To calculate the heating energy, we need the flow values and supply return temps of hot water loop
+* BEFORE! calculating or analyzing divide data into regions(based on temp+hum as well as valve op) otherwise sensor readings will not reflect what their actual prupose is.
+* In bdx hw data, 0 values of flow corr to decereasing values of supply temp of hot water
+
+* OR we can learn from the existin data about the HW energy given the setpoints of rooms, pht temps of ahus, dats of ahus and use it to predict the remaining cols
+* THIS ^^ looks like a feasible thing to do!
+
