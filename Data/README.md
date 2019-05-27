@@ -5,6 +5,11 @@
 * TotalEnergy2018- Has the heating and cooling energy data, ambient data and hot water data
 * ORH- Has the Relative humiditysince Alumni Hall sensoris not working right now
 
+The following the datafiles currently used:
+* [TotalEnergy2018](https://drive.google.com/file/d/17hxbY788YUg5gAIpBrEqjQWNTLnt3fLP/view?usp=sharing)
+* [BdxData](https://drive.google.com/file/d/1fXH-Duw9ngzT3Ls8yWsEZhQUkgVioB4y/view?usp=sharing)
+* [AHU12_PH_T_Data](https://drive.google.com/file/d/1S2ovi1KAs_y15-0n3XlMv9rFESbvqA_b/view?usp=sharing)
+
 ### Update: Baesd on looking at the CHW.xlsx data, 
 * Either the reheat, cool outputs are depending on the diff of temp set pt and the actual temp because dehum command are
 not governing what is happening to the cooling and heating process it seems. Have to check!
@@ -25,4 +30,6 @@ cct is in the 70s
 
 * OR we can learn from the existin data about the HW energy given the setpoints of rooms, pht temps of ahus, dats of ahus and use it to predict the remaining cols
 * THIS ^^ looks like a feasible thing to do!
+
+
 
