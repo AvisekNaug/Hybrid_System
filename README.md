@@ -9,6 +9,7 @@ Hybrid_System
 |-Data
 |-src
 ```
+![Rough control method](https://github.com/AvisekNaug/Hybrid_System/blob/master/Hybrid_RL_Control.png)
 
 *Next step is to read the data files for both AHUs(or just 1) and setpoints from zones*
 
